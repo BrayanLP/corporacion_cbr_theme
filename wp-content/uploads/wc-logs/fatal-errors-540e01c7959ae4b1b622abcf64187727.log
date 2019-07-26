@@ -1,0 +1,92 @@
+2018-03-02T20:33:00+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-03-02T20:40:20+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-03-02T20:54:23+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-03-03T13:41:50+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-03-03T14:15:07+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-03-03T14:16:35+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-03-03T14:44:06+00:00 CRITICAL Uncaught Error: Call to undefined function storefront_header_styles() in C:\MAMP\htdocs\demo_ecommerce\wp-content\themes\mitiendaonline\header.php:21
+Stack trace:
+#0 C:\MAMP\htdocs\demo_ecommerce\wp-includes\template.php(684): require_once()
+#1 C:\MAMP\htdocs\demo_ecommerce\wp-includes\template.php(643): load_template('C:\\MAMP\\htdocs\\...', true)
+#2 C:\MAMP\htdocs\demo_ecommerce\wp-includes\general-template.php(45): locate_template(Array, true)
+#3 C:\MAMP\htdocs\demo_ecommerce\wp-content\themes\mitiendaonline\index.php(2): get_header()
+#4 C:\MAMP\htdocs\demo_ecommerce\wp-includes\template-loader.php(74): include('C:\\MAMP\\htdocs\\...')
+#5 C:\MAMP\htdocs\demo_ecommerce\wp-blog-header.php(19): require_once('C:\\MAMP\\htdocs\\...')
+#6 C:\MAMP\htdocs\demo_ecommerce\index.php(17): require('C:\\MAMP\\htdocs\\...')
+#7 {main}
+  thrown
+
+2018-03-03T14:44:37+00:00 CRITICAL Uncaught Error: Call to undefined function storefront_header_styles() in C:\MAMP\htdocs\demo_ecommerce\wp-content\themes\mitiendaonline\header.php:21
+Stack trace:
+#0 C:\MAMP\htdocs\demo_ecommerce\wp-includes\template.php(684): require_once()
+#1 C:\MAMP\htdocs\demo_ecommerce\wp-includes\template.php(643): load_template('C:\\MAMP\\htdocs\\...', true)
+#2 C:\MAMP\htdocs\demo_ecommerce\wp-includes\general-template.php(45): locate_template(Array, true)
+#3 C:\MAMP\htdocs\demo_ecommerce\wp-content\themes\mitiendaonline\index.php(2): get_header()
+#4 C:\MAMP\htdocs\demo_ecommerce\wp-includes\template-loader.php(74): include('C:\\MAMP\\htdocs\\...')
+#5 C:\MAMP\htdocs\demo_ecommerce\wp-blog-header.php(19): require_once('C:\\MAMP\\htdocs\\...')
+#6 C:\MAMP\htdocs\demo_ecommerce\index.php(17): require('C:\\MAMP\\htdocs\\...')
+#7 {main}
+  thrown
+
+2018-03-03T14:44:59+00:00 CRITICAL Uncaught Error: Call to undefined function storefront_header_styles() in C:\MAMP\htdocs\demo_ecommerce\wp-content\themes\mitiendaonline\header.php:21
+Stack trace:
+#0 C:\MAMP\htdocs\demo_ecommerce\wp-includes\template.php(684): require_once()
+#1 C:\MAMP\htdocs\demo_ecommerce\wp-includes\template.php(643): load_template('C:\\MAMP\\htdocs\\...', true)
+#2 C:\MAMP\htdocs\demo_ecommerce\wp-includes\general-template.php(45): locate_template(Array, true)
+#3 C:\MAMP\htdocs\demo_ecommerce\wp-content\themes\mitiendaonline\index.php(2): get_header()
+#4 C:\MAMP\htdocs\demo_ecommerce\wp-includes\template-loader.php(74): include('C:\\MAMP\\htdocs\\...')
+#5 C:\MAMP\htdocs\demo_ecommerce\wp-blog-header.php(19): require_once('C:\\MAMP\\htdocs\\...')
+#6 C:\MAMP\htdocs\demo_ecommerce\index.php(17): require('C:\\MAMP\\htdocs\\...')
+#7 {main}
+  thrown
+
+2018-03-03T20:07:10+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-03-05T15:29:37+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-03-15T18:03:13+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-03-15T19:41:52+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-03-15T19:48:40+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-03-15T20:19:05+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-03-15T20:31:12+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-03-15T21:21:35+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function quantity_inputs_for_woocommerce_loop_add_to_cart_link(), 1 passed in C:\MAMP\htdocs\corporacion_cbr_theme\wp-includes\class-wp-hook.php on line 298 and exactly 2 expected in C:\MAMP\htdocs\corporacion_cbr_theme\wp-content\themes\mitiendaonline\functions.php:11
+Stack trace:
+#0 C:\MAMP\htdocs\corporacion_cbr_theme\wp-includes\class-wp-hook.php(298): quantity_inputs_for_woocommerce_loop_add_to_cart_link('')
+#1 C:\MAMP\htdocs\corporacion_cbr_theme\wp-includes\class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#2 C:\MAMP\htdocs\corporacion_cbr_theme\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#3 C:\MAMP\htdocs\corporacion_cbr_theme\wp-content\plugins\woocommerce\templates\content-single-product.php(61): do_action('woocommerce_sin...')
+#4 C:\MAMP\htdocs\corporacion_cbr_theme\wp-includes\template.php(686): require('C:\\MAMP\\htdocs\\...')
+#5 C:\MAMP\htdocs\corporacion_cbr_theme\wp-content\plugins\woocommerce\includes\wc-core-functions.php
+
+2018-03-15T21:25:35+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function quantity_inputs_for_woocommerce_loop_add_to_cart_link(), 1 passed in C:\MAMP\htdocs\corporacion_cbr_theme\wp-includes\class-wp-hook.php on line 298 and exactly 2 expected in C:\MAMP\htdocs\corporacion_cbr_theme\wp-content\themes\mitiendaonline\functions.php:11
+Stack trace:
+#0 C:\MAMP\htdocs\corporacion_cbr_theme\wp-includes\class-wp-hook.php(298): quantity_inputs_for_woocommerce_loop_add_to_cart_link('')
+#1 C:\MAMP\htdocs\corporacion_cbr_theme\wp-includes\class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#2 C:\MAMP\htdocs\corporacion_cbr_theme\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#3 C:\MAMP\htdocs\corporacion_cbr_theme\wp-content\plugins\woocommerce\templates\content-single-product.php(61): do_action('woocommerce_sin...')
+#4 C:\MAMP\htdocs\corporacion_cbr_theme\wp-includes\template.php(686): require('C:\\MAMP\\htdocs\\...')
+#5 C:\MAMP\htdocs\corporacion_cbr_theme\wp-content\plugins\woocommerce\includes\wc-core-functions.php
+
+2018-03-15T21:28:36+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::id() in C:\MAMP\htdocs\corporacion_cbr_theme\wp-content\themes\mitiendaonline\functions.php:8
+Stack trace:
+#0 C:\MAMP\htdocs\corporacion_cbr_theme\wp-includes\class-wp-hook.php(298): bottom_extra_whatsapp('')
+#1 C:\MAMP\htdocs\corporacion_cbr_theme\wp-includes\class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#2 C:\MAMP\htdocs\corporacion_cbr_theme\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#3 C:\MAMP\htdocs\corporacion_cbr_theme\wp-content\plugins\woocommerce\templates\content-single-product.php(61): do_action('woocommerce_sin...')
+#4 C:\MAMP\htdocs\corporacion_cbr_theme\wp-includes\template.php(686): require('C:\\MAMP\\htdocs\\...')
+#5 C:\MAMP\htdocs\corporacion_cbr_theme\wp-content\plugins\woocommerce\includes\wc-core-functions.php(180): load_template('C:\\MAMP\\htdocs\\...', false)
+#6 C:\MAMP\htdocs\corporacion_cbr_theme\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(561): wc_get_template_part('content', 'si
+
+2018-03-19T21:01:32+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
